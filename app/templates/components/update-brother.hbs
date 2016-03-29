@@ -1,0 +1,35 @@
+{{#if updateBrotherForm}}
+  <h4>Update {{brother.owner}}'s {{brother.type}}</h4>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="owner">Owner</label>
+          {{input value=owner id="owner" placeholder=brother.owner}}
+        </div>
+
+        <div class="form-group">
+          <label for="type">Type</label>
+          {{input value=type id="type" placeholder=brother.type}}
+        </div>
+
+        <div class="form-group">
+          <label for="city">City</label>
+          {{input value=city id="city" placeholder=brother.city}}
+        </div>
+
+        <div class="form-group">
+          <label for="image">Image URL</label>
+          {{input value=image id="image" placeholder=brother.image}}
+        </div>
+
+        <div class="form-group">
+          <label for="hp">Number of Bedrooms</label>
+          {{input value=hp id="hp" placeholder=brother.hp}}
+        </div>
+
+        <button {{action 'update' brother}}>Save</button>
+      </form>
+    </div>
+{{else}}
+    <button {{action 'updateBrotherForm'}}>Update</button>
+{{/if}}

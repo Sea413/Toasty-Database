@@ -1,8 +1,9 @@
-<li>{{brother.owner}}'s {{brother.type}} in {{brother.city}} Total HP {{brother.hp}}
+<li>{{#link-to 'brother' brother.id}}{{brother.owner}}'s {{brother.type}} in {{brother.city}} Total HP {{brother.hp}} {{/link-to}}
   {{#if isImageShowing }}
        <p><img src={{brother.image}} alt={{brother.type}} {{action "imageHide"}}></p>
      {{else}}
        <button {{action 'imageShow'}}>Show image</button>
     {{/if}}
+    {{update-brother brother=brother update="update"}}
     <button {{action 'delete' brother}}>Delete</button>
 </li>

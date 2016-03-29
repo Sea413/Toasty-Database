@@ -1,26 +1,22 @@
 { "brothers": [{
-  "id": 1,
   "owner": "Splashy",
   "city": "Water Pipe",
   "type": "Water",
   "image": "http://exchangedownloads.smarttech.com/public/content/af/af4157f8-1837-43ad-b5a0-0934284c856b/previews/medium/0001.png",
   "hp": 60
   }, {
-  "id": 2,
   "owner": "Rocky",
   "city": "Seattle Troll",
   "type": "Rock",
   "image": "http://www.twolofbees.com/images/content/Happy_Boulder2013-12-21.png",
   "hp": 45
   }, {
-  "id": 3,
   "owner": "Windy",
   "city": "Pacific air currents",
   "type": "Air",
   "image": "http://img14.deviantart.net/bc3a/i/2011/078/3/f/happy_cloud_by_konpeito_ko-d3c17pj.jpg",
   "hp": 40
   }, {
-  "id": 4,
   "owner": "Toasty",
   "city": "Fires of Mordor",
   "type": "Fire",

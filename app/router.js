@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('context');
   this.route('toasty');
   this.route('battle');
+  this.route('rental');
+  this.route('brother', {path: '/brother/:brother_id'});
 });
 
 export default Router;
