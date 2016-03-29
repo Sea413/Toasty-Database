@@ -1,4 +1,14 @@
-<h2 id="title">Welcome to Ember</h2>
-<h4>It's so toasty</h4>
-{{#link-to 'toasty'}}<img src="/assets/images/toasty.jpg">{{/link-to}}
-{{outlet}}
+<header class = "jumbotron">
+  <h2 id="title">Welcome to Ember</h2>
+  <h4>It's so toasty</h4>
+  {{#link-to 'toasty'}}<img src="/assets/images/toasty.jpg">{{/link-to}}
+</header>
+
+<div class="container">
+  {{outlet}}
+</div>
+
+<hr>
+
+<footer>
+Its our footer</footer>
